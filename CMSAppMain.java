@@ -122,7 +122,6 @@ class Post {
  }
 }
 
-//----------------- CMS Service Class -----------------
 class CMSService {
  private List<Post> posts;
  private List<Category> categories;
@@ -215,4 +214,5 @@ public class CMSAppMain {
      service.listByCategory("Technology");
      service.authorWiseCount();
  }
+
 }
